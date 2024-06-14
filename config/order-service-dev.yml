@@ -43,11 +43,12 @@ management:
   endpoints:
     web:
       exposure:
-        include: *
+        include: '*'
+  
 info:
   app:
     name: My Spring Boot Application
-    description: This is a sample application
+    description: This is a sample application to demonstrate Actuator endpoints.
     version: 1.0.0
   company:
     name: My Company
